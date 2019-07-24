@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+@import './guiaStyle.scss';
+@import './footer.scss';
+
+// BEM
+// .menu{}
+// .menu_item{}
+// .menu_item--active{}
+// Variables
+$color1: #629DEF;
+$color2: #F8F8F8;
+$color3: #F4F4F4;
+$color4: #86269B;
+$color5: #00D2F1;
+$colorb: #fff;
+$colortexto : #707070;
+
+// Fuentes
+$fontBrand: 'Montserrat', sans-serif;
+$fontPricipal:'Montserrat', sans-serif;
+$fontSecundaria: 'Montserrat', sans-serif;
+$fontIconos:'Quattrocento', serif;
+$fontSize8: 0.5rem;
+$fontSize16: 1rem;
+$fontSize24: 1.5rem;
+$fontSize32: 2rem;
+$fontSize40: 2.5rem;
+
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+html{
+    height: 100%;
+    font-size: calc(16px + (24 - 16)*(100vw - 400px)/(1920 - 400));
+    font-family: $fontBrand;
+    body{
+        height: 100%;
+    }
+}
+
